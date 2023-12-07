@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D53C3C"
+    android:backgroundTint="#C5C3C3"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:hint="Enter the first Number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#616161"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter the first Number"
+        android:minHeight="48dp"
+        android:minEms="2"
+        android:padding="10dp"
+        android:textColorHint="#616161"
+        android:textSize="20dp"
+        android:autofillHints="password" />
+    <Button
+        android:id="@+id/multiple"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="*"
+        android:layout_margin="10dp"
+        android:textSize="30dp"/>
+
+       <Button
+           android:id="@+id/division"
+           android:layout_width="120dp"
+           android:layout_height="60dp"
+           android:text="/"
+            android:layout_margin="10dp" 
+           android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:backgroundTint="@android:color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/foodimage2"
+        />
+
+  </LinearLayout>
